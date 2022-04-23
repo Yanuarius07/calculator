@@ -1,0 +1,43 @@
+*
+{
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+.flex-container-colum {
+    display: flex;
+    /* properti pendukung */
+    flex-direction: column;
+    max-width:800px ;
+    margin: 0 auto
+    text-alignn : auto;
+}
+.flex-container-row {
+    display: flex;
+}
+button {
+    flex-basis: 25%;
+    /*properti pendukung */
+    font-size: 1.5em;
+    text-align: center;
+    padding: 40px;
+    border: 1px solid black;
+    background: -webkit-linear-gradient(top, #d2d2d2,#ddd)
+    cursor: pointer;
+}
+.double {
+    flex-basis: 50px;
+}
+.display {
+    color: white;
+    width: 100px; ;
+    padding: 10px 20px ;
+    background color:#333333;
+    border:1px solid black;
+    font-size: 2em;
+}
+.operator,
+.negative,
+.equals,
+    .background:orange;
